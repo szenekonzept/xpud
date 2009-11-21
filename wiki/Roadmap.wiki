@@ -3,7 +3,7 @@
 = Introduction =
 *This list is intended for developers only. This is an effort to coordinate the steps needed to be taken in order to release the next stable version of xPUD. Users should post suggestions to [http://groups.google.com/group/pud-linux Google Groups] and issues to [http://code.google.com/p/xpud/issues/list Google Code issue tracker].*
 
-_Dear developers, if you are planing to work or already working on some feature - please add your name to it in *bold*. --Strikeout-- completed tasks. Do not remove rejected tasks, --strikeout-- them and add a comment why it was rejected._
+_Dear developers, if you are planing to work or already working on some feature - please add your name to it in *bold*. <strike>Strikeout</strike> completed tasks. Do not remove rejected tasks, <strike>strikeout</strike> them and add a comment why it was rejected._
 
 =xPUD Development Roadmap=
 
