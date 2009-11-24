@@ -39,6 +39,7 @@ _Dear developers, if you are planing to work or already working on some feature 
   * improve sound settings - simplyfy, put playback and recording controls on different tabs
   * easy way to unmount plugged in devices (e.g. right click on an icon and choose eject)
   * show mounted devices in PCManFM sidebar
+  * energy savings and automatic fan speed (e.g. acerfand script for Aspire One)
 
 ==1.0==
   * make all text strings in Plate localizeable
