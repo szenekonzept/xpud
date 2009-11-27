@@ -21,7 +21,8 @@ _Dear developers, if you are planing to work or already working on some feature 
   * automatically login as a non-root user
   * move home folder to e.g. /home/xpud
   * set locale information (LC_ALL)
-  * set keymaps using setxkbmap (check Xvesa support)
+  * <strike>set keymaps using setxkbmap (check Xvesa support)</strike>
+  * improve keymap setting interface in Plate UI settings (setxkbmap)
   * pressing poweroff button should show shutdown dialog (use dbus bridge?)
   * multimedia keys support for most popular netbooks (sleep, volume, battery, wifi toggle)
   * improvements to get_video script (multiscreen support, on/off, rotation detection, saving settings to config to be loaded on startup (Xvesa))
