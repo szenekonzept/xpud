@@ -1,4 +1,4 @@
-#summary Here's a list of planned features and issues that need to be fixed for a next stable release.
+#summary A list of planned features and issues that need to be fixed for a next stable release.
 
 = Introduction =
 *This list is intended for developers only. This is an effort to coordinate the steps needed to be taken in order to release the next stable version of xPUD. Users should post suggestions to [http://groups.google.com/group/pud-linux Google Groups] and issues to [http://code.google.com/p/xpud/issues/list Google Code issue tracker].*
