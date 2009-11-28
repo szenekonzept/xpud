@@ -30,8 +30,8 @@ _Dear developers, if you are planing to work or already working on some feature 
   * alternative tasklist - application switcher (at least alt+tab between applications)
 
 ==0.9.x==
-  * add alternative KDrive X servers (i810, nvidia, etc.)
-  * Xvesa touchscreen calibration (libts, libts-bin, ts_calibrate || XCalibrate ?)
+  * <strike>add alternative KDrive X servers (i810, nvidia, etc.)</strike> (obsolete: xPUD is using Xorg now)
+  * <strike>Xvesa touchscreen calibration (libts, libts-bin, ts_calibrate || XCalibrate ?)</strike> (obsolete: xPUD is using Xorg now)
   * add virtual keyboard (xvkbd or matchbox-keyboard)
   * more ACPI events support for netbooks - sleep, lid close detect, wifi on/off etc.
   * improve time/date settings - timezone, am/pm, synchronization
