@@ -38,7 +38,7 @@ _Dear developers, if you are planing to work or already working on some feature 
   * custom local file manager (like KFM or ajaXplorer)
   * opt packages with application translations
   * bash script for normal HDD installation to a separate partition
-  * improve sound settings - simplyfy, put playback and recording controls on different tabs
+  * improve sound settings - simplify, put playback and recording controls on different tabs
   * easy way to unmount plugged in devices (e.g. right click on an icon and choose eject)
   * show mounted devices in PCManFM sidebar
   * energy savings and automatic fan speed (e.g. acerfand script for Aspire One)
