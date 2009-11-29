@@ -20,7 +20,7 @@ _Dear developers, if you are planing to work or already working on some feature 
   * unified Plate UI settings system accessible by Plate and by scripts (currently using prefs.js, do we need better solution (JSON based conf file) or could we just improve the current one?)
   * automatically login as a non-root user
   * move home folder to e.g. /home/xpud
-  * set locale information (LC_ALL)
+  * <strike>set locale information (LC_ALL)</strike>
   * <strike>set keymaps using setxkbmap (check Xvesa support)</strike>
   * improve keymap setting interface in Plate UI settings (setxkbmap)
   * pressing poweroff button should show shutdown dialog (use dbus bridge?)
