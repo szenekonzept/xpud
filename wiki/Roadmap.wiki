@@ -8,12 +8,12 @@ _Dear developers, if you are planing to work or already working on some feature 
 =xPUD Development Roadmap=
 
 ==0.9.2==
-  * backup installed opt packages
+  * <strike>backup installed opt packages</strike>
   * load backup (video, keymap, language and other settings) before starting X
-  * connect connman with Plate through DBus Bridge, rewrite connection interface
   * fix shutdown scripts (stop daemons, hide unwanted warnings...)
 
 ==0.9.4==
+  * connect connman with Plate through DBus Bridge, rewrite connection interface (blocked by connman udhcpc bug and DBus bridge issues)
   * indicate opt-get installation (e.g. show spinner animation while opt is being mounted)
   * disable install button for installed opt packages
   * rewrite update-menus script in Perl (speed improvements)
