@@ -7,22 +7,22 @@ _Dear developers, if you are planing to work or already working on some feature 
 
 =xPUD Development Roadmap=
 
-==0.9.2==
-  * <strike>backup installed opt packages</strike>
+==0.9.3==
+  * main menu scrolling when application icons won't fit on screen
   * load backup (video, keymap, language and other settings) before starting X
   * fix shutdown scripts (stop daemons, hide unwanted warnings...)
+  * rewrite update-menus script in Perl (speed improvements)
+  * improve keymap setting interface in Plate UI settings (setxkbmap)
 
 ==0.9.4==
   * connect connman with Plate through DBus Bridge, rewrite connection interface (blocked by connman udhcpc bug and DBus bridge issues)
   * indicate opt-get installation (e.g. show spinner animation while opt is being mounted)
   * disable install button for installed opt packages
-  * rewrite update-menus script in Perl (speed improvements)
   * unified Plate UI settings system accessible by Plate and by scripts (currently using prefs.js, do we need better solution (JSON based conf file) or could we just improve the current one?)
   * automatically login as a non-root user
   * move home folder to e.g. /home/xpud
   * <strike>set locale information (LC_ALL)</strike>
   * <strike>set keymaps using setxkbmap (check Xvesa support)</strike>
-  * improve keymap setting interface in Plate UI settings (setxkbmap)
   * pressing poweroff button should show shutdown dialog (use dbus bridge?)
   * multimedia keys support for most popular netbooks (sleep, volume, battery, wifi toggle)
   * improvements to get_video script (multiscreen support, on/off, rotation detection, saving settings to config to be loaded on startup (Xvesa))
