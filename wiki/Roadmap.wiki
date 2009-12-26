@@ -8,17 +8,18 @@ _Dear developers, if you are planing to work or already working on some feature 
 =xPUD Development Roadmap=
 
 ==0.9.3==
-  * main menu scrolling when application icons won't fit on screen
-  * load backup (video, keymap, language and other settings) before starting X
+  * main menu scrolling (paging) when application icons won't fit on screen
+  * save settings (video mode, keymap, language) to backup and set them after loading backup after boot
+  * unified Plate UI settings system accessible by Plate and by scripts (currently using prefs.js, do we need better solution (JSON based conf file) or could we just improve the current one?)
   * fix shutdown scripts (stop daemons, hide unwanted warnings...)
   * rewrite update-menus script in Perl (speed improvements)
-  * improve keymap setting interface in Plate UI settings (setxkbmap)
+  * improve keymap setting interface in Plate UI settings (add layout variant selection)
+  * keep translations in one file per language (easier to maintain)
 
 ==0.9.4==
   * connect connman with Plate through DBus Bridge, rewrite connection interface (blocked by connman udhcpc bug and DBus bridge issues)
   * indicate opt-get installation (e.g. show spinner animation while opt is being mounted)
   * disable install button for installed opt packages
-  * unified Plate UI settings system accessible by Plate and by scripts (currently using prefs.js, do we need better solution (JSON based conf file) or could we just improve the current one?)
   * automatically login as a non-root user
   * move home folder to e.g. /home/xpud
   * <strike>set locale information (LC_ALL)</strike>
@@ -26,10 +27,10 @@ _Dear developers, if you are planing to work or already working on some feature 
   * pressing poweroff button should show shutdown dialog (use dbus bridge?)
   * multimedia keys support for most popular netbooks (sleep, volume, battery, wifi toggle)
   * improvements to get_video script (multiscreen support, on/off, rotation detection, saving settings to config to be loaded on startup (Xvesa))
-  * keep translations in one file per language (easier to maintain)
   * alternative tasklist - application switcher (at least alt+tab between applications)
 
 ==0.9.x==
+  * first boot setup wizard (show detected hardware and offer to download kernel modules for unrecognized devices, setup initial settings - language, keymap, backup directory/device, etc.)
   * <strike>add alternative KDrive X servers (i810, nvidia, etc.)</strike> (obsolete: xPUD is using Xorg now)
   * <strike>Xvesa touchscreen calibration (libts, libts-bin, ts_calibrate || XCalibrate ?)</strike> (obsolete: xPUD is using Xorg now)
   * add virtual keyboard (xvkbd or matchbox-keyboard)
