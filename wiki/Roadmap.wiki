@@ -15,6 +15,7 @@ _Dear developers, if you are planing to work or already working on some feature 
   * rewrite update-menus script in Perl (speed improvements)
   * improve keymap setting interface in Plate UI settings (add layout variant selection)
   * keep translations in one file per language (easier to maintain)
+  * create opt packages using mkxpud script
 
 ==0.9.4==
   * connect connman with Plate through DBus Bridge, rewrite connection interface (blocked by connman udhcpc bug and DBus bridge issues)
