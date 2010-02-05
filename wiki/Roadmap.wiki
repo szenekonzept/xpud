@@ -34,7 +34,7 @@ _Dear developers, if you are planing to work or already working on some feature 
   * first boot setup wizard (show detected hardware and offer to download kernel modules for unrecognized devices, setup initial settings - language, keymap, backup directory/device, etc.)
   * <strike>add alternative KDrive X servers (i810, nvidia, etc.)</strike> (obsolete: xPUD is using Xorg now)
   * <strike>Xvesa touchscreen calibration (libts, libts-bin, ts_calibrate || XCalibrate ?)</strike> (obsolete: xPUD is using Xorg now)
-  * add virtual keyboard (xvkbd or matchbox-keyboard)
+  * <strike>add virtual keyboard (xvkbd or matchbox-keyboard)</strike>
   * more ACPI events support for netbooks - sleep, lid close detect, wifi on/off etc.
   * improve time/date settings - timezone, am/pm, synchronization
   * custom local file manager (like KFM or ajaXplorer)
