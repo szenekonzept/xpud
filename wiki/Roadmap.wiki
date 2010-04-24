@@ -8,9 +8,9 @@ _Dear developers, if you are planing to work or already working on some feature 
 =xPUD Development Roadmap=
 
 ==0.9.3==
-  * main menu scrolling (paging) when application icons won't fit on screen
-  * save settings (video mode, keymap, language) to backup and set them after loading backup after boot
-  * unified Plate UI settings system accessible by Plate and by scripts (currently using prefs.js, do we need better solution (JSON based conf file) or could we just improve the current one?)
+  * <strike>main menu scrolling (paging) when application icons won't fit on screen</strike>
+  * <strike>save settings (video mode, keymap, language) to backup and set them after loading backup after boot</strike>
+  * <strike>unified Plate UI settings system accessible by Plate and by scripts (currently using prefs.js, do we need better solution (JSON based conf file) or could we just improve the current one?)</strike> We are keeping config files in text format in ~/.config/plate directory.
   * fix shutdown scripts (stop daemons, hide unwanted warnings...)
   * rewrite update-menus script in Perl (speed improvements)
   * improve keymap setting interface in Plate UI settings (add layout variant selection)
