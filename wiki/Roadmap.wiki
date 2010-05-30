@@ -1,6 +1,6 @@
-*Roadmap is being moved to xPUD Roadmap on Google Wave. Check it out for latest version*
-
 #summary A list of planned features and issues that need to be fixed for a next stable release.
+
+*Roadmap is being moved to xPUD Roadmap on Google Wave. Check it out for latest version*
 
 = Introduction =
 *This list is intended for developers only. This is an effort to coordinate the steps needed to be taken in order to release the next stable version of xPUD. Users should post suggestions to [http://groups.google.com/group/pud-linux Google Groups] and issues to [http://code.google.com/p/xpud/issues/list Google Code issue tracker].*
