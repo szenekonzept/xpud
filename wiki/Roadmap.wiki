@@ -1,3 +1,5 @@
+*Roadmap is being moved to xPUD Roadmap on Google Wave. Check it out for latest version*
+
 #summary A list of planned features and issues that need to be fixed for a next stable release.
 
 = Introduction =
